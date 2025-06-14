@@ -1,34 +1,54 @@
-## Hi there 👋
-# 👨‍💻 Niraj | Red Team Enthusiast & Ethical Hacker
+<h1 align="center">👨‍💻 Niraj Ashtaputre | Red Team & Offensive Security Enthusiast</h1>
 
-Hi! I'm **Niraj Ashtaputre**, and I'm passionate about cybersecurity — especially the offensive side like red teaming and ethical hacking.
+<p align="center">
+  🔍 Exploring the dark corners of cybersecurity — ethically.<br>
+  🛠️ Building tools to simulate real-world attack techniques.<br>
+  🚀 Red Teaming | Privilege Escalation | Persistence | Recon
+</p>
 
-I love building tools that help simulate real-world attacks in a safe way. I’ve created open-source projects like:
-- 🔍 **SilentSniffer** – A tool for quietly monitoring network activity  
-- 🔐 **GhostAccess** – A simple lab and scripts to learn privilege escalation  
-- 🛠️ **BackdoorBox** – A toolkit that shows how attackers maintain access (in a controlled lab environment)
+---
 
-## 🛠️ Skills & Tools
-- Python, Bash, Netcat, Scapy, Crontab, Reverse Shells
-- Kali Linux, Parrot OS, Burp Suite, VirtualBox
-- Red Team, Privilege Escalation, Post-Exploitation
+## 🧰 Featured Projects
 
-📚 Always learning. Open to CTFs, collabs, and community hacking!
+| Project        | Description                                        | Link |
+|----------------|----------------------------------------------------|------|
+| 🕵️‍♂️ **SilentSniffer** | Passive network recon tool (Scapy-based)          | [SilentSniffer](https://github.com/niraj-cmd/SilentSniffer) |
+| 🧨 **GhostAccess**     | Privilege escalation lab & post-exploitation scripts | [GhostAccess](https://github.com/niraj-cmd/GhostAccess)     |
+| 🎯 **BackdoorBox**     | Covert persistence toolkit (cron, reverse shells)  | [BackdoorBox](https://github.com/niraj-cmd/BackdoorBox)     |
 
-> ⭐ Check out my repos below!
+---
 
+## 🧠 Skills & Tools
 
-<!--
-**niraj-cmd/niraj-cmd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Python](https://img.shields.io/badge/-Python-000?style=flat&logo=python)
+![Bash](https://img.shields.io/badge/-Bash-000?style=flat&logo=gnu-bash)
+![Linux](https://img.shields.io/badge/-Linux-000?style=flat&logo=linux)
+![Scapy](https://img.shields.io/badge/-Scapy-000?style=flat&logo=wireshark)
+![Netcat](https://img.shields.io/badge/-Netcat-000?style=flat)
+![Reverse Shell](https://img.shields.io/badge/-Reverse%20Shell-000?style=flat)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 About Me
+
+- 💻 I create beginner-friendly red team tools
+- 📂 I love working on local labs and simulations
+- 🧪 Currently learning malware development and AV evasion
+- 💬 Always open to CTF collabs, mentorship, or bug bounty teams
+
+---
+
+## 📫 Contact
+
+- GitHub: [niraj-cmd](https://github.com/niraj-cmd)
+- LinkedIn: *(Add your profile link here if you want)*
+- Email: *(Optional — add your email if you're comfortable)*
+
+---
+
+## 📊 GitHub Stats (Optional)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=niraj-cmd&show_icons=true&theme=tokyonight" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=niraj-cmd&layout=compact&theme=tokyonight" width="320"/>
+</p>
