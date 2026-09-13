@@ -100,3 +100,197 @@ The project uses `GetAsyncKeyState()` to examine virtual-key states, detect key 
                 │
                 ▼
        Discord Webhook
+| Technology       | Purpose                    |
+| ---------------- | -------------------------- |
+| 🐍 Python 3      | Main programming language  |
+| 🪟 Windows API   | Keyboard-state interaction |
+| `ctypes`         | Native Windows API access  |
+| `threading`      | Background processing      |
+| `urllib.request` | HTTP communication         |
+| `json`           | Payload generation         |
+
+🔍 How It Works
+1. Windows API
+
+The project loads Windows system libraries through Python:
+
+user32 = ctypes.windll.user32
+kernel32 = ctypes.windll.kernel32
+2. Keyboard State
+
+Virtual-key states are checked through:
+
+user32.GetAsyncKeyState(vk)
+3. State Tracking
+
+The program tracks key state transitions:
+
+UP → DOWN
+
+A detected transition is added to the temporary buffer.
+
+4. Key Mapping
+
+Selected virtual-key codes are converted into readable representations:
+
+[BACKSPACE]
+[SHIFT]
+[CTRL]
+[ALT]
+[ESC]
+[LEFT]
+[UP]
+[RIGHT]
+[DOWN]
+[DELETE]
+
+Letters and numbers are converted into readable characters.
+
+5. Thread-Safe Buffer
+
+The shared buffer is protected using:
+
+buffer_lock = threading.Lock()
+6. Background Sender
+
+A daemon thread periodically processes buffered events and demonstrates JSON-based HTTP POST communication using Python's built-in urllib.request.
+
+📁 Repository Structure
+python-keylogger/
+│
+├── keyfinal.py
+├── .gitattributes
+└── README.md
+🚀 Installation
+Requirements
+Windows 10 / Windows 11
+Python 3.x
+Authorized test environment
+Network access for webhook testing
+
+The supplied code uses Python's standard library and does not require third-party packages.
+
+▶️ Running
+
+Clone the repository:
+
+git clone https://github.com/niraj-cmd/python-keylogger.git
+
+Enter the directory:
+
+cd python-keylogger
+
+Run:
+
+python keyfinal.py
+
+Stop with:
+
+Ctrl + C
+🔐 Webhook Security
+
+The source contains a placeholder:
+
+webhook_url = "ur webhook "
+
+🚨 Never commit a real Discord webhook URL to a public repository.
+
+Treat webhook URLs as secrets.
+
+If a webhook has accidentally been exposed:
+
+🚫 Revoke the exposed webhook
+🔄 Generate a replacement
+🧹 Remove the exposed value from the repository
+🔎 Check Git history for previous exposure
+
+Removing a secret from the latest file does not necessarily remove it from Git history.
+
+🧪 Security Research
+
+This project can be used inside an isolated laboratory to study:
+
+Windows API
+     ↓
+Input Monitoring
+     ↓
+Process Behavior
+     ↓
+Thread Activity
+     ↓
+Network Communication
+     ↓
+Endpoint Detection
+
+It can help security researchers understand how input-monitoring behavior and unusual outbound communication may be detected by endpoint-security solutions.
+
+🛡️ Responsible Use
+✅ Appropriate Uses
+Personal cybersecurity laboratories
+Windows API learning
+Malware-analysis education
+Defensive security research
+Endpoint-security experiments
+Authorized penetration testing
+Virtual machines
+CTF environments
+❌ Do Not Use For
+Unauthorized surveillance
+Credential theft
+Password collection
+Cookie or token theft
+Monitoring another person's computer
+Secret deployment
+Security-software evasion
+Collecting information without authorization
+🎯 Learning Objectives
+🐍 Python
+   │
+   ├── ctypes
+   ├── threading
+   ├── JSON
+   └── urllib
+          │
+          ▼
+     🪟 Windows API
+          │
+          ▼
+   ⌨️ Keyboard Events
+          │
+          ▼
+   🔬 Security Research
+          │
+          ▼
+       🛡️ Defense
+📚 Research Topics
+Windows Virtual-Key Codes
+GetAsyncKeyState
+Python ctypes
+Windows API
+Thread synchronization
+HTTP POST requests
+JSON APIs
+Endpoint Detection & Response
+Malware Analysis
+Host-Based Monitoring
+Windows Internals
+📫 Contact
+GitHub
+
+👨‍💻 niraj-cmd
+
+LinkedIn
+
+💼 Niraj Ashtaputre
+
+⚖️ Disclaimer
+
+All projects in this profile are intended for educational, CTF, laboratory, and authorized cybersecurity research purposes.
+
+Do not use these projects against systems, accounts, networks, or individuals without appropriate authorization.
+
+You are responsible for complying with all applicable laws, regulations, organizational policies, and authorization requirements.
+
+<p align="center">
+🔐 LEARN • BUILD • BREAK • DEFEND
+</p> <p align="center"> 🚀 Red Team • Offensive Security • Windows Internals • Cybersecurity </p> <p align="center"> ⭐ If you find my projects useful, consider starring the repositories! </p> ```
