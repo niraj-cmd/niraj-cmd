@@ -105,8 +105,7 @@ Malware-analysis concepts
  🛡️ EDR Detection Research
  🎯 Advanced Red Teaming
 
-📫 Contact
-- LinkedIn: [Niraj Ashtaputre](https://www.linkedin.com/in/niraj-ashtaputre-703829305/)
+📫 Contact💼 LinkedIn: [Niraj Ashtaputre](https://www.linkedin.com/in/niraj-ashtaputre-703829305/)
 ⚖️ Disclaimer
 
 All projects and research presented here are intended for educational purposes, CTFs, controlled laboratories, and authorized cybersecurity testing.
