@@ -106,8 +106,7 @@ Malware-analysis concepts
  🎯 Advanced Red Teaming
 
 📫 Contact
-GitHub: niraj-cmd
-LinkedIn: Niraj Ashtaputre
+LinkedIn:https://www.linkedin.com/in/niraj-ashtaputre-703829305/https://www.linkedin.com/in/niraj-ashtaputre-703829305/
 ⚖️ Disclaimer
 
 All projects and research presented here are intended for educational purposes, CTFs, controlled laboratories, and authorized cybersecurity testing.
