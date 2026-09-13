@@ -41,9 +41,7 @@
 ## 📫 Contact
 
 - GitHub: [niraj-cmd](https://github.com/niraj-cmd)
-- LinkedIn: *(Add your profile link here if you want)*
-- Email: *(Optional — add your email if you're comfortable)*
-
+- LinkedIn: https://www.linkedin.com/in/niraj-ashtaputre-703829305/
 ---
 
 ## 📊 GitHub Stats (Optional)
