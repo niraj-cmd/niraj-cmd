@@ -39,7 +39,6 @@
 |---|---|---|
 | 🕵️ **SilentSniffer** | Passive network reconnaissance research built with Scapy | [View Repo](https://github.com/niraj-cmd/SilentSniffer) |
 | 🧨 **GhostAccess** | Privilege-escalation lab and post-exploitation research | [View Repo](https://github.com/niraj-cmd/GhostAccess) |
-| 🎯 **BackdoorBox** | Persistence and post-exploitation concepts for controlled security labs | [View Repo](https://github.com/niraj-cmd/BackdoorBox) |
 | ⌨️ **python-keylogger** | Windows API and keyboard-event monitoring research using Python `ctypes` | [View Repo](https://github.com/niraj-cmd/python-keylogger) |
 | 🌐 **STAGING_TECHNIQUES** | Windows research exploring remote retrieval, memory allocation and staging concepts | [View Repo](https://github.com/niraj-cmd/STAGING_TECHNIQUES) |
 
