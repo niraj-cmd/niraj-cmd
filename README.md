@@ -1,221 +1,370 @@
 <h1 align="center">👨‍💻 Niraj Ashtaputre</h1>
 
+<h3 align="center">
+🔴 Red Team • Offensive Security • Windows Internals • Security Research
+</h3>
+
 <p align="center">
-  <b>🔴 Red Team • Offensive Security • Windows Internals • Security Research</b>
+  <b>Explore • Break • Understand • Detect • Defend</b>
 </p>
 
 <p align="center">
-  <i>Explore. Break. Understand. Defend.</i>
-</p>
 
-<p align="center">
-  <a href="https://github.com/niraj-cmd">
-    <img src="https://img.shields.io/badge/GitHub-niraj--cmd-000000?style=for-the-badge&logo=github">
-  </a>
-  <a href="https://www.linkedin.com/in/niraj-ashtaputre-703829305/">
-    <img src="https://img.shields.io/badge/LinkedIn-Niraj%20Ashtaputre-0A66C2?style=for-the-badge&logo=linkedin">
-  </a>
+![Profile Views](https://komarev.com/ghpvc/?username=niraj-cmd\&color=red\&style=for-the-badge)
+
 </p>
 
 ---
 
 ## 🧠 About Me
 
-🔍 Exploring cybersecurity from both the **attacker and defender perspective**.
+I'm a cybersecurity enthusiast focused on understanding how real-world attacks work from both the **offensive and defensive perspectives**.
 
-- 🔴 Red Teaming & offensive-security research
-- 🪟 Windows internals and Windows API research
-- 🧪 Security labs, CTFs and controlled attack simulations
-- 🧬 Malware-analysis concepts and memory research
-- 🌐 Network reconnaissance and security tooling
-- 🛡️ EDR and defensive-detection research
-- 💻 Building practical projects with C, Python and Bash
+My interests revolve around building practical security tooling, studying Windows internals, experimenting in isolated labs, and researching how offensive techniques can be detected and analyzed.
 
----
+### 🔴 Primary Interests
 
-## 🧰 Featured Projects
-
-| Project | Description | Link |
-|---|---|---|
-| 🕵️ **SilentSniffer** | Passive network reconnaissance research built with Scapy | [View Repo](https://github.com/niraj-cmd/SilentSniffer) |
-| 🧨 **GhostAccess** | Privilege-escalation lab and post-exploitation research | [View Repo](https://github.com/niraj-cmd/GhostAccess) |
-| ⌨️ **python-keylogger** | Windows API and keyboard-event monitoring research using Python `ctypes` | [View Repo](https://github.com/niraj-cmd/python-keylogger) |
-| 🌐 **STAGING_TECHNIQUES** | Windows research exploring remote retrieval, memory allocation and staging concepts | [View Repo](https://github.com/niraj-cmd/STAGING_TECHNIQUES) |
+* 🕵️ Red Teaming & Offensive Security
+* 🪟 Windows Internals & Windows APIs
+* 🧬 Malware Analysis
+* 🧠 Memory & Process Analysis
+* 🛡️ EDR / Behavioral Detection
+* 🌐 Network Reconnaissance
+* 🔐 Web Security & Security Automation
+* 🧪 CTFs & Controlled Security Labs
+* 🐍 Python Security Tooling
+* 💻 C / C++ / Bash Security Research
 
 ---
 
-## ⚔️ Security Arsenal
+# ⚔️ Security Arsenal
 
 ### 💻 Languages
 
-![C](https://img.shields.io/badge/C-000?style=for-the-badge&logo=c)
-![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
-![Bash](https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnu-bash)
-
-### 🪟 Platforms & Technologies
-
-![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows)
-![Linux](https://img.shields.io/badge/Linux-000?style=for-the-badge&logo=linux)
-![Docker](https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker)
-![Git](https://img.shields.io/badge/Git-000?style=for-the-badge&logo=git)
-![Scapy](https://img.shields.io/badge/Scapy-000?style=for-the-badge)
-![WinINet](https://img.shields.io/badge/WinINet-000?style=for-the-badge)
-
-### 🔴 Security
-
-`Recon` • `Red Teaming` • `Privilege Escalation` • `Persistence` • `Windows Internals` • `Memory Analysis` • `Malware Analysis` • `EDR Research` • `CTF`
-
----
-
-## 🔬 Current Research
-
-### 🌐 STAGING_TECHNIQUES
-
-Researching Windows payload-staging concepts and the interaction between **network retrieval, Windows APIs and process memory**.
-
 ```text
-        🌐 Network
-           │
-           ▼
-      Windows API
-           │
-           ▼
-     Data Retrieval
-           │
-           ▼
-    Memory Allocation
-           │
-           ▼
-    Memory Analysis
-           │
-           ▼
-   🛡️ Detection Research
+Python        ████████████████████
+C / C++       ███████████████
+Bash          ████████████
+PowerShell    ███████████
+JavaScript    █████████
 ```
 
-**Focus Areas**
-
-- Windows API behavior
-- WinINet
-- Process memory
-- Memory allocation
-- Payload-staging concepts
-- Windows internals
-- Malware analysis
-- EDR behavioral detection
-
----
-
-### ⌨️ Windows Keyboard Event Monitoring Lab
-
-A Python research project exploring Windows keyboard-event APIs and endpoint telemetry.
+### 🪟 Windows Security
 
 ```text
-Python
-  ↓
-ctypes
-  ↓
 Windows API
-  ↓
-GetAsyncKeyState()
-  ↓
-Virtual-Key State Tracking
-  ↓
-Threading & Event Buffering
-  ↓
-Endpoint Detection Research
+Windows Internals
+Process & Memory Analysis
+Virtual Memory
+WinINet
+DLL / Process Concepts
+Endpoint Telemetry
+EDR Behavioral Analysis
+```
+
+### 🔴 Offensive Security
+
+```text
+Reconnaissance
+Web Security
+Privilege Escalation
+Persistence Research
+Post-Exploitation Concepts
+Payload Staging Research
+Security Automation
+CTF / Lab Development
 ```
 
 ---
 
-## 📊 Security Research Map
+# 🚀 Featured Projects
+
+| Project                       | Description                                                              | Focus             |
+| ----------------------------- | ------------------------------------------------------------------------ | ----------------- |
+| 🌐 **Site Cloner / NPHISHER** | Playwright-based rendered website snapshot and localhost testing utility | Web Automation    |
+| 🕵️ **SilentSniffer**         | Passive network reconnaissance research using Scapy                      | Network Security  |
+| 🧨 **GhostAccess**            | Controlled privilege-escalation and post-exploitation research           | Windows Security  |
+| ⌨️ **Python Keylogger Lab**   | Windows keyboard-event API and endpoint telemetry research               | Windows Internals |
+| 🧬 **STAGING_TECHNIQUES**     | Research into Windows retrieval, memory allocation and staging concepts  | Malware Research  |
+
+---
+
+## 🌐 Site Cloner / NPHISHER
+
+A Python + Playwright project for **authorized website rendering, HTML snapshotting, screenshot verification and localhost testing**.
+
+### Workflow
 
 ```text
-                    🔴 OFFENSIVE SECURITY
-                            │
-          ┌─────────────────┼─────────────────┐
-          ▼                 ▼                 ▼
-        RECON             PRIVESC        PERSISTENCE
-          │                 │                 │
-          └─────────────────┼─────────────────┘
-                            ▼
-                    🪟 WINDOWS RESEARCH
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-          MEMORY         MALWARE          EDR
-         ANALYSIS       ANALYSIS       RESEARCH
-             │              │              │
-             └──────────────┼──────────────┘
-                            ▼
-                    🛡️ DEFENSIVE SECURITY
+             🌐 Target Website
+                    │
+                    ▼
+          🎭 Playwright / Chromium
+                    │
+                    ▼
+             Page Rendering
+                    │
+                    ▼
+          Lazy-load Triggering
+                    │
+             ┌──────┴──────┐
+             ▼             ▼
+        index.html    screenshot.png
+             │             │
+             └──────┬──────┘
+                    ▼
+             🖥️ Local Server
+                    │
+                    ▼
+          http://localhost:8080
+```
+
+🔗 **Repository:**
+https://github.com/niraj-cmd/site-cloner
+
+---
+
+# 🔬 Current Research
+
+## 🪟 Windows Internals
+
+Exploring how Windows applications interact with:
+
+* Windows APIs
+* Processes
+* Threads
+* Virtual memory
+* Network APIs
+* Endpoint telemetry
+* Security controls
+
+---
+
+## 🧬 Malware Analysis
+
+Research areas include:
+
+```text
+Executable Behavior
+       ↓
+Process Creation
+       ↓
+API Interaction
+       ↓
+Memory Activity
+       ↓
+Network Activity
+       ↓
+Behavioral Indicators
+       ↓
+Detection Opportunities
+```
+
+The goal is not simply to reproduce offensive techniques, but to understand their **observable behavior and defensive implications**.
+
+---
+
+# 🌐 Web Security Research
+
+Current areas of interest:
+
+* Web application security
+* Browser automation
+* HTTP/HTTPS behavior
+* Web reconnaissance
+* Local testing environments
+* Security-focused automation
+* UI and rendering analysis
+
+All experiments are performed against systems where testing is authorized.
+
+---
+
+# 🛡️ Defensive Security
+
+Understanding offensive techniques is only one side of the problem.
+
+I'm also interested in identifying:
+
+```text
+Attack Technique
+      ↓
+System Behavior
+      ↓
+Telemetry
+      ↓
+Detection Signal
+      ↓
+EDR / Security Control
+      ↓
+Investigation
+      ↓
+Mitigation
+```
+
+### Research Areas
+
+* EDR detection
+* Behavioral indicators
+* Windows telemetry
+* Process monitoring
+* Memory analysis
+* Network indicators
+* Detection engineering
+
+---
+
+# 🗺️ Security Research Map
+
+```text
+                       🔴 OFFENSIVE SECURITY
+                                │
+             ┌──────────────────┼──────────────────┐
+             ▼                  ▼                  ▼
+          RECON              WEB SEC             PRIVESC
+             │                  │                  │
+             └──────────────────┼──────────────────┘
+                                ▼
+                       🪟 WINDOWS SECURITY
+                                │
+              ┌─────────────────┼─────────────────┐
+              ▼                 ▼                 ▼
+           MEMORY            MALWARE             EDR
+          ANALYSIS          ANALYSIS          RESEARCH
+              │                 │                 │
+              └─────────────────┼─────────────────┘
+                                ▼
+                       🛡️ DEFENSIVE SECURITY
 ```
 
 ---
 
-## 🎯 Learning Roadmap
+# 🧪 Lab Philosophy
+
+My projects are developed around:
+
+* 🔬 Authorized security research
+* 🧪 Isolated laboratories
+* 🎯 CTF environments
+* 🖥️ Local test systems
+* 📚 Educational demonstrations
+* 🛡️ Defensive analysis
+
+> **Understand how attacks work so they can be analyzed, detected and defended against.**
+
+---
+
+# 🎯 Learning Roadmap
 
 ```text
-🐍 Python Security Scripting
-          ↓
+🐍 Python Security
+        ↓
 🐧 Linux Security
-          ↓
-🌐 Network Recon
-          ↓
-🪟 Windows API
-          ↓
+        ↓
+🌐 Network Security
+        ↓
+🔐 Web Security
+        ↓
+🪟 Windows APIs
+        ↓
 🧠 Windows Internals
-          ↓
+        ↓
 💾 Memory Analysis
-          ↓
+        ↓
 🧬 Malware Analysis
-          ↓
-🛡️ EDR Detection
-          ↓
+        ↓
+🛡️ Detection Engineering
+        ↓
 🔴 Advanced Red Teaming
 ```
 
 ---
 
-## 📈 GitHub Stats
+# 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=niraj-cmd&show_icons=true&theme=tokyonight&hide_border=true" height="170">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=niraj-cmd&theme=tokyonight&hide_border=true" height="170">
+
+<img src="https://github-readme-stats.vercel.app/api?username=niraj-cmd&show_icons=true&theme=dark&hide_border=true" />
+
+</p>
+
+<p align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=niraj-cmd&theme=dark&hide_border=true" />
+
 </p>
 
 ---
 
-## 🧪 Research Philosophy
-
-> **Understand how attacks work so they can be analyzed, detected and defended against.**
-
-My projects are designed around **authorized security research, CTFs, educational demonstrations and isolated laboratory environments**.
-
----
-
-## 🚀 Goals
-
-- 🔬 Go deeper into Windows internals
-- 🧬 Improve malware-analysis skills
-- 🛡️ Study EDR and behavioral detection
-- 🌐 Build better security-research tooling
-- 🧪 Create realistic isolated security labs
-- 🏴‍☠️ Participate in more CTFs
-- 🚀 Keep learning, building and researching
-
----
-
-## 📫 Connect
-
-- 💻 GitHub: [niraj-cmd](https://github.com/niraj-cmd)
-- 💼 LinkedIn: [Niraj Ashtaputre](https://www.linkedin.com/in/niraj-ashtaputre-703829305/)
-
----
+# 🧰 Tools & Technologies
 
 <p align="center">
-  <b>🔴 RESEARCH • BREAK • UNDERSTAND • DEFEND 🔵</b>
+
+<img src="https://skillicons.dev/icons?i=python,c,cpp,bash,powershell,linux,windows,git,github,docker,vscode&perline=6" />
+
 </p>
 
+---
+
+# 📚 What I'm Building
+
+Currently focusing on building practical security projects around:
+
+```text
+🔴 Offensive Security
+🪟 Windows Internals
+🌐 Web Security
+🧬 Malware Analysis
+🛡️ EDR Detection
+💾 Memory Analysis
+🤖 Security Automation
+🧪 Security Labs
+```
+
+---
+
+# 🚀 Goals
+
+* 🔬 Go deeper into Windows internals
+* 🧬 Improve malware-analysis skills
+* 🛡️ Build stronger detection engineering skills
+* 🌐 Develop practical web-security tooling
+* 🧠 Improve memory-analysis capabilities
+* 🧪 Build realistic isolated security labs
+* 🏴‍☠️ Participate in more CTFs
+* 💻 Build and publish useful security research projects
+* 🚀 Continuously learn, experiment and improve
+
+---
+
+# 📫 Connect With Me
+
 <p align="center">
-  <sub>All security research is performed only on systems and environments where authorization is granted.</sub>
+
+<a href="https://github.com/niraj-cmd">
+<img src="https://img.shields.io/badge/GitHub-niraj--cmd-black?style=for-the-badge&logo=github">
+</a>
+
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LinkedIn-Niraj%20Ashtaputre-blue?style=for-the-badge&logo=linkedin">
+</a>
+
+</p>
+
+---
+
+# ⚠️ Responsible Security Research
+
+All projects and research presented here are intended for:
+
+**authorized testing, educational research, CTFs, defensive analysis, and isolated laboratory environments.**
+
+Do not use security tools against systems, accounts, networks or applications without explicit authorization.
+
+---
+
+<p align="center">
+
+### 🔴 RESEARCH • BREAK • UNDERSTAND • DETECT • DEFEND 🔵
+
 </p>
