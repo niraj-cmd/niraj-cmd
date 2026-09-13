@@ -104,15 +104,3 @@ Malware-analysis concepts
  🦠 Malware Analysis
  🛡️ EDR Detection Research
  🎯 Advanced Red Teaming
-
-📫 Contact💼
-![linkedin](https://www.linkedin.com/in/niraj-ashtaputre-703829305/)
-⚖️ Disclaimer
-
-All projects and research presented here are intended for educational purposes, CTFs, controlled laboratories, and authorized cybersecurity testing.
-
-Do not use security tools against systems, accounts, networks, or individuals without appropriate authorization.
-
-You are responsible for complying with applicable laws, regulations, and organizational policies.
-
-<p align="center"> <b>🔐 LEARN • BUILD • BREAK • DEFEND</b> </p> <p align="center"> 🚀 Red Team • Offensive Security • Windows Internals • Cybersecurity </p> <p align="center"> ⭐ Always learning. Always building. </p> ```
