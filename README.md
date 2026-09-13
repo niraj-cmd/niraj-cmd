@@ -42,11 +42,3 @@
 
 - GitHub: [niraj-cmd](https://github.com/niraj-cmd)
 - LinkedIn: https://www.linkedin.com/in/niraj-ashtaputre-703829305/
----
-
-## 📊 GitHub Stats (Optional)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=niraj-cmd&show_icons=true&theme=tokyonight" width="400"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=niraj-cmd&layout=compact&theme=tokyonight" width="320"/>
-</p>
